@@ -1,8 +1,7 @@
 name: Push DockerHub
 
 on:
-  repository_dispatch:
-    types: [Push DockerHub]
+  workflow_dispatch:
 
 jobs:
   docker-images:
